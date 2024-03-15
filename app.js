@@ -18,6 +18,7 @@ const connectdb = async () => {
     }
 };
 
+//connect db
 connectdb();
 app.use('/tasks', tasksRouter);
 
